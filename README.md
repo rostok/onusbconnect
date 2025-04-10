@@ -29,6 +29,9 @@ Clone the repo and build running:
 csc.exe should be in path. 
 Image Magick's magick.exe is optional, as ico file is already in repo.
 
+# Updates
+v1.3 has different approach to triggering action as it doesnt burder WMI Provider Host so much but only registers for device notification. Previous approach wasnt that bad but it kept WMI Host provider's CPU usage at 0.5-1%.
+
 # License
 MIT
 
